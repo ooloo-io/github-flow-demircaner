@@ -3,17 +3,17 @@ body {
   font-size: 18px;
 }
 
+
 .header,
 .footer {
-  background-color: aquamarine;
+  height: 49px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .header {
   border-bottom: 1px solid gray;
-  height: 50px;
 }
 
 .content {
@@ -22,5 +22,6 @@ body {
 
 .footer {
   border-top: 1px solid gray;
-  height: 49px;
 }
+  
+
