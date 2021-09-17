@@ -39,7 +39,6 @@ body {
 
 .footer {
   border-top: 1px solid gray;
->>>>>>> 13e491a (Add bottom section)
 }
 
 .section {
@@ -49,4 +48,8 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+
+.section:first-child {
+  margin-top: 0;
 }
