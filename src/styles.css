@@ -30,6 +30,21 @@ body {
 .section {
   height: 450px;
   width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.footer {
+  border-top: 1px solid gray;
+>>>>>>> 13e491a (Add bottom section)
+}
+
+.section {
+  height: 450px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
