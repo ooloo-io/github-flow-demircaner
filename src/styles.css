@@ -3,10 +3,25 @@ body {
   font-size: 18px;
 }
 
-.header {
+
+.header,
+.footer {
   height: 49px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid black;
 }
+
+.header {
+  border-bottom: 1px solid gray;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+
+.footer {
+  border-top: 1px solid gray;
+}
+  
+
