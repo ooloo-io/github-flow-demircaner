@@ -3,20 +3,23 @@ body {
   font-size: 18px;
 }
 
-.header {
-  background-color: aquamarine;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid gray;
-}
-
+.header,
 .footer {
   background-color: aquamarine;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header {
   border-bottom: 1px solid gray;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+
+.footer {
+  border-top: 1px solid gray;
 }
